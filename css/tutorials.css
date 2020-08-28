@@ -1,0 +1,105 @@
+.main {
+  padding-left: 8vw;
+  padding-right: 2vw;
+}
+
+.main2 {
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+.video {
+  padding-right: 4vw;
+  padding-top: 2vw;
+  padding-bottom: 3vw;
+}
+
+.title {
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+}
+
+.title h2 {
+  font-size: 3.7vw;
+  font-weight: 500;
+}
+
+.title hr {
+  margin-top: -45px;
+  height: 30px;
+  background-image: linear-gradient(to right, rgba(228, 181, 41, .5), rgba(255, 214, 79, 0.1));
+}
+
+.steps h4 {
+  font-weight: 600;
+}
+
+.steps li {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.1rem;
+  padding-top: .3vw;
+  padding-bottom: .2vw;
+  margin-left: 40px;
+}
+
+.intro p {
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+}
+
+ol > li {
+  margin: 0;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+ol > li:before {
+  min-width: 30px;
+  padding-right: 3em;
+  position: absolute;
+  left: 15px;
+  font-weight: bold;
+  text-align: right;
+  content: counter(item) ".";
+}
+
+b {
+  font-weight: 600;
+}
+
+.additional {
+  border-left: 5px solid #E4B429;
+  padding-left: 2vw;
+  padding-top: 1vw;
+  background-color: #FFFBED;
+  margin-bottom: 35px;
+}
+
+.additional2 {
+  border-left: 5px solid #E4B429;
+  padding-left: 2vw;
+  padding-top: 1vw;
+  background-color: #FFFBED;
+  margin-bottom: 35px;
+  margin-left: 8em;
+  width: 80%;
+}
+
+
+.general {
+  border-radius: 25px;
+  box-shadow: 0px 0px 15px rgba(0, 33, 105, 0.3);
+  /*border: 2px solid #002169;*/
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+.general b {
+  font-weight: 600;
+}
